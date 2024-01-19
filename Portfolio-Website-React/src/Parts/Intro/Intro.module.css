@@ -1,0 +1,72 @@
+@import "../../vars.css";
+
+.introContainer {
+    background: linear-gradient(101deg, #FAD79C -6.15%, rgba(245, 178, 147, 0.95) 2.34%, rgba(243, 169, 144, 0.81) 16.2%, rgba(241, 161, 142, 0.78) 23.3%, rgba(238, 145, 136, 0.73) 27.99%, rgba(233, 122, 128, 0.65) 32.92%, rgba(231, 115, 126, 0.72) 42.14%, rgba(232, 120, 127, 0.76) 49.8%, rgba(232, 118, 127, 0.90) 58.72%, #E7717D 69.3%, #A24D75 107.02%);
+    /* background: linear-gradient(101deg, #FAD79C -6.15%, rgba(245, 178, 147, 0.95) 2.34%, rgba(243, 169, 144, 0.81) 19.17%, rgba(241, 161, 142, 0.72) 35.2%, rgba(238, 145, 136, 0.73) 44.09%, rgba(233, 122, 128, 0.74) 49.99%, #E7717D 69.3%, #A24D75 107.02%); */
+    height: 85.4vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.introText {
+    padding-left: 142px;
+    color: white;
+    font-weight: 700;
+}
+
+.introText h1 {
+    font-size: 80px;
+}
+
+.introText p {
+    font-size: 30px;
+    width: 550px;
+}
+
+.introIcon {
+    width: 435px;
+    height: 421.85px;
+    margin-right: 142px;
+}
+
+.coloredWord {
+    color: var(--color-pink);
+}
+
+@media screen and (max-width: 1000px) {
+    .introContainer {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introIcon {
+        order: -1;
+        height: auto;
+        width: 350px;
+        padding-top: 32px;
+        padding-left: 25px;
+        margin-right: 0;
+    }
+
+    .introText {
+        padding: 0 19px;
+        text-align: center;
+    }
+
+    .introText h1 {
+        font-size: 55px;
+    }
+
+    .introText p {
+        font-size: 30px;
+        width: 100%;
+        padding-bottom: 32px;
+    }
+
+    .coloredWord {
+        color: var(--color-primary);
+    }
+}
