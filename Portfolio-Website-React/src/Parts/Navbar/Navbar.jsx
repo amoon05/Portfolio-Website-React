@@ -17,10 +17,10 @@ export const Navbar = () => {
                         <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Resume</a>
+                        <a href="https://drive.google.com/file/d/1f73HZow7ib2t-XORvRvsCT08-ix6_0X-/view?usp=sharing" target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>

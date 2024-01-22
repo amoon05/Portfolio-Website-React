@@ -3,11 +3,12 @@
 .introContainer {
     background: linear-gradient(101deg, #FAD79C -6.15%, rgba(245, 178, 147, 0.95) 2.34%, rgba(243, 169, 144, 0.81) 16.2%, rgba(241, 161, 142, 0.78) 23.3%, rgba(238, 145, 136, 0.73) 27.99%, rgba(233, 122, 128, 0.65) 32.92%, rgba(231, 115, 126, 0.72) 42.14%, rgba(232, 120, 127, 0.76) 49.8%, rgba(232, 118, 127, 0.90) 58.72%, #E7717D 69.3%, #A24D75 107.02%);
     /* background: linear-gradient(101deg, #FAD79C -6.15%, rgba(245, 178, 147, 0.95) 2.34%, rgba(243, 169, 144, 0.81) 19.17%, rgba(241, 161, 142, 0.72) 35.2%, rgba(238, 145, 136, 0.73) 44.09%, rgba(233, 122, 128, 0.74) 49.99%, #E7717D 69.3%, #A24D75 107.02%); */
-    height: 85.4vh;
+    height: 100%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 11.05vh 0;
 }
 
 .introText {
@@ -22,31 +23,49 @@
 
 .introText p {
     font-size: 30px;
-    width: 550px;
+    max-width: 40vw;
 }
 
 .introIcon {
     width: 435px;
-    height: 421.85px;
+    height: auto;
     margin-right: 142px;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2.5s;
 }
 
 .coloredWord {
     color: var(--color-pink);
 }
 
-@media screen and (max-width: 1000px) {
+@keyframes float {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0,-0px);
+    }
+}
+
+@media screen and (max-width: 830px) {
     .introContainer {
-        position: relative;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 32px 0;
     }
 
     .introIcon {
         order: -1;
         height: auto;
-        width: 350px;
-        padding-top: 32px;
+        width: 75%;
         padding-left: 25px;
         margin-right: 0;
     }
@@ -54,6 +73,7 @@
     .introText {
         padding: 0 19px;
         text-align: center;
+        max-width: 100%;
     }
 
     .introText h1 {
@@ -62,8 +82,8 @@
 
     .introText p {
         font-size: 30px;
-        width: 100%;
         padding-bottom: 32px;
+        max-width: 80vw;
     }
 
     .coloredWord {

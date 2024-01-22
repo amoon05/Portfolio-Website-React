@@ -3,6 +3,7 @@ import styles from "./Intro.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Intro = () => {
+
     return (
         <section className={styles.introContainer}>
             <div className={styles.introText}>
@@ -17,3 +18,4 @@ export const Intro = () => {
         </section>
     );
 };
+

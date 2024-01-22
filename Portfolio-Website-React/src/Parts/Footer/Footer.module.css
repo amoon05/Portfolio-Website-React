@@ -1,0 +1,71 @@
+@import "../../vars.css";
+
+li a {
+    text-decoration: none;
+    color: var(--color-pink);
+    transition: 300ms;
+}
+
+li a:hover {
+    text-decoration: underline;
+    
+}
+
+.footer li {
+    list-style: none;
+    color: var(--color-pink);
+    font-size: 20px;
+}
+
+.footer h2 {
+    color: var(--color-pink);
+    font-size: 30px;
+    padding-bottom: 22px;
+}
+
+.footerLine {
+    border-top: 1px solid var(--color-pink);
+    width: 70%;
+    justify-items: center;
+    margin: 0 auto;
+    padding-bottom: 78px;
+}
+
+.footerContainer {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 43px;
+}
+
+.textLight {
+    opacity: 50%;
+}
+
+.footerTextContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footerTextContainer li {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    .footerContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding-bottom: 32px;
+    }
+
+    .footerTextContainer {
+        justify-items: center;
+        padding-bottom: 32px;
+    }
+
+    .footerTextContainerRight {
+        text-align: center;
+    }
+}

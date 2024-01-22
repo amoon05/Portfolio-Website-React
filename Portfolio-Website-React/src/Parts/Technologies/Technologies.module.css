@@ -1,0 +1,57 @@
+@import "../../vars.css";
+
+.technologiesTitle {
+    text-align: center;
+    font-size: 45px;
+    color: var(--color-pink);
+}
+
+.technologiesIcons {
+    height: 150px;
+    width: 150px;
+}
+
+.technologiesIcons {
+    height: 150px;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.technologiesIcons:hover {
+    transform: scale(0.8);
+}
+
+.technologiesIcons:hover + .technologiesText {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+
+.technologiesContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 758px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;    
+    padding: 78px 0;
+    gap: 78px;
+}
+
+.technologiesText {
+    color: var(--color-pink);
+    font-size: 20px;
+    text-align: center;
+    opacity: 0;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 830px) {
+    .technologiesContainer {
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        width: 80%;
+        gap: 30px;
+    }
+}

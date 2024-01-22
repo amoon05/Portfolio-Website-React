@@ -14,6 +14,7 @@
     font-weight: bolder;
     text-decoration: none;
     padding: 32px 0;
+    text-shadow: rgba(0,0,0,0.25);
 }
 
 .navbarMenu {
