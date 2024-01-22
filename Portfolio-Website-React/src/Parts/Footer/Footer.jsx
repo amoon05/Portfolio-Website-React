@@ -1,7 +1,23 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { Link, useNavigate } from 'react-router-dom'; // Import Link instead of BrowserRouter and Route
+
 
 export const Footer = () => {
+    const navigate = useNavigate();
+    
+    const projectClick = () => {
+        navigate("/");
+        projectsScroll();
+    };
+
+    const projectsScroll = () => {
+        const projectsSection = document.getElementById("projects");
+        if (projectsSection) {
+            projectsSection.scrollIntoView({behavior: 'smooth'});
+        }
+    };
+
     return (
         <section className={styles.footer}>
             <div className={styles.footerLine}></div>
@@ -33,10 +49,10 @@ export const Footer = () => {
                                     Navigate
                                 </li>
                                 <li>
-                                    <a href="#projects">Projects</a>
+                                    <button onClick={projectClick}>Projects</button>
                                 </li>
                                 <li>
-                                    About
+                                    <Link to={"/about"}>About</Link>
                                 </li>
                                 <li>
                                     <a href="https://drive.google.com/file/d/1f73HZow7ib2t-XORvRvsCT08-ix6_0X-/view?usp=sharing" target="_blank">Resume</a>

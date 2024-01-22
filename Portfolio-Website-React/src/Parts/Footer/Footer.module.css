@@ -52,6 +52,20 @@ li a:hover {
     padding-bottom: 10px;
 }
 
+.footerTextRight button {
+    background: none;
+    border: none;
+    font-size: inherit;
+    color: var(--color-pink);
+    font-weight: inherit;
+}
+
+.footerTextRight button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 830px) {
     .footerContainer {
         display: grid;
