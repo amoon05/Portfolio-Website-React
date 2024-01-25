@@ -17,6 +17,11 @@
     text-shadow: rgba(0,0,0,0.25);
 }
 
+.navbarTitle a {
+    text-decoration: none;
+    color: var(--color-pink);
+}
+
 .navbarMenu {
     display: flex;
 }

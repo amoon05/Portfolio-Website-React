@@ -93,12 +93,13 @@
         display: none;
     }
 
-    .projectsContainer{
+    .projectsContainer {
         padding: 0 0px;
-        justify-items: center;
+        justify-content: center;
         display: flex;
         flex-direction: column;
         gap: 0px;
+        align-items: center;
     }
     
     .projectsPicture {
@@ -106,5 +107,11 @@
         height: auto;
         width: 80%;
         margin-bottom: 107px;
+    }
+
+    .projectsContainer a {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 }

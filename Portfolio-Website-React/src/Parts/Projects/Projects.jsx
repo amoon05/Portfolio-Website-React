@@ -20,10 +20,10 @@ export const Projects = () => {
                         My first front-end project. It is a responsive website serving as a base home page displaying my professional portfolio. This project is also hosted on GitHub pages.
                     </p>
                 </div>
-                <img className={styles.projectsPicture} src={getImageUrl("projects/Website Picture V1.png")} alt="Website-Picture-V1" />
+                <a className={styles.pictureContainer} href="https://amoon05.github.io/Portfolio-Website-HTML-and-CSS/" target="_blank"><img className={styles.projectsPicture} src={getImageUrl("projects/Website Picture V1.png")} alt="Website-Picture-V1" /></a>
             </div>
             <div className={styles.projectsContainer}>
-                <img className={styles.projectsPicture} src={getImageUrl("projects/Website Picture V2.png")} alt="Website-Picture-V2" />
+                <a className={styles.pictureContainer} href="https://aaronmoon.netlify.app" target="_blank"><img className={styles.projectsPicture} src={getImageUrl("projects/Website Picture V2.png")} alt="Website-Picture-V2" /></a>
                 <div className={styles.projectsText2}>
                     <h2>
                         Portfolio Website  V2
@@ -32,7 +32,7 @@ export const Projects = () => {
                         React, JavaScript, HTML, CSS
                     </h3>
                     <p>
-                        My second front-end project. It is a responsive website serving as a base home page displaying my professional portfolio. This project is also hosted on GitHub pages.
+                        My second front-end project. It is a responsive website serving as a base home page displaying my professional portfolio. This project is hosted on Netlify.
                     </p>
                 </div>
             </div>
