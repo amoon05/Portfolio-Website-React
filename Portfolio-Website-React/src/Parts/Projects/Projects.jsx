@@ -32,7 +32,7 @@ export const Projects = () => {
                         React, JavaScript, HTML, CSS
                     </h3>
                     <p>
-                        My second front-end project. It is a responsive website serving as a base home page displaying my professional portfolio. This project is hosted on Netlify.
+                        My second front-end project. It is a responsive website serving as a base home page displaying my professional portfolio. Prototyped a mock-up utilizing Figma. This project is hosted on Netlify.
                     </p>
                 </div>
             </div>
