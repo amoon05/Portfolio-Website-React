@@ -66,7 +66,7 @@ export const Navbar = () => {
                             animate={{ opacity:1, x: 0 }}
                             transition={{ duration: 1.5}}
                         >
-                            <a href="https://drive.google.com/file/d/1f73HZow7ib2t-XORvRvsCT08-ix6_0X-/view?usp=sharing" target="_blank">Resume</a>
+                            <a href="https://drive.google.com/file/d/1EfMbRFqZBQja_u1Y4l_38lffoL0bvNRS/view?usp=sharing" target="_blank">Resume</a>
                         </motion.div>
                     </li>
                 </ul>
