@@ -55,7 +55,7 @@ export const Footer = () => {
                                     <Link to={"/about"}>About</Link>
                                 </li>
                                 <li>
-                                    <a href="https://drive.google.com/file/d/1EfMbRFqZBQja_u1Y4l_38lffoL0bvNRS/view?usp=sharing" target="_blank">Resume</a>
+                                    <a href="https://drive.google.com/file/d/1ayalGjyqWNYdy7xr7Yh-v5KVbF72pSa6/view?usp=sharing" target="_blank">Resume</a>
                                 </li>
                             </ul>
                         </div>
