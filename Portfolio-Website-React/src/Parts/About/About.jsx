@@ -28,7 +28,7 @@ export const About = () => {
                         animate={{ opacity:1, x: 0 }}
                         transition={{ duration: 0.9}}
                     >
-                        I am a third-year student at University of California, San Diego majoring in Mathematics - Computer Science and minoring in Design. I am hoping to pursue a full-time career in Technical Consulting but I am also interested in Software Engineering. <br/><br/>I was born and raised in Orange County, California but I love to travel and visit new places. I love learning new things, whether it be for my professional career or exploring new hobbies, but above all, I enjoy the little things life has to offer. I enjoy spending time with my friends and family, listening to indie music on late night drives, going to the gym and climbing, exploring tasty restaurants, and so much more.
+                        I am a third-year student at University of California, San Diego majoring in Mathematics - Computer Science and minoring in Design. I plan on pursuing a full-time career in Software Engineering but I am interested in Product Management and Technical Consulting. <br/><br/>I was born and raised in Orange County, California but I love to travel and visit new places. I love learning new things, whether it be for my professional career or exploring new hobbies, but above all, I enjoy the little things life has to offer. I enjoy spending time with my friends and family, listening to indie music on late night drives, going to the gym and climbing, exploring tasty restaurants, and so much more.
                     </motion.p>
                     <motion.p 
                         className={styles.aboutText}
